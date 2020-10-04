@@ -1,0 +1,47 @@
+//#include <stdio.h>
+//int main()
+//{
+//	printf("23+43=%d\n", 23 + 43);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	printf("223+43=%d", 23 + 43);
+//	return 0;
+//}
+//#include <stdio.h>
+//int main()
+//{
+//	int price = 0;
+//	printf("请输入金额（元）:" );
+//	scanf_s("%d", &price);
+//	int change = 100 - price;
+//	printf("找您%d元。\n", change);
+//	return 0;
+//}
+// #include <stdio.h>
+//int main()
+//{
+//	int num1 = 0;
+//	int num2 = 0;
+//	
+//	
+//	
+//	scanf_s("%d%d", &num1,&num2);
+//	int sum = num1 + num2;
+//	printf("总和=%d\n", sum);
+//	return 0;
+//}
+// #include <stdio.h>
+//int main()
+//{
+//	int num1 = 0;
+//	int num2 = 0;
+//
+//
+//
+//	scanf_s("%d%d", &num1, &num2);
+//	int sum = num1 * num2 + (num1 + num2);
+//	printf("%d\n", sum);
+//	return 0;
