@@ -1,0 +1,67 @@
+# junior-student
+Open my way to programming
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <stdlib.h>
+#include<Windows.h>
+int main()
+{
+	int i, j;
+	int x=1 , y=1 ;
+	int velocity_y=1 ;
+	int velocity_x=1 ;
+	while (1)
+	{
+		
+		system("cls");
+		for (j = 0; j < y; j++)
+			printf("\n");
+		for (i = 0; i < x; i++)
+			printf(" ");
+		printf("o\n");
+		Sleep(80);
+		if (y > 20 || y<1)
+			velocity_y = -1 * velocity_y;
+		y = y + velocity_y;
+		if (x>20 || x<1)
+			velocity_x = -1 * velocity_x;
+		x = x + velocity_x;
+		
+	}
+	return 0;}           改进后---------- #define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include<stdlib.h>
+#include <windows.h>
+int main()
+{
+	int i, j;
+	int x = 0, y = 5;
+	int velocity_x = 1;
+	int velocity_y = 1;
+	int left = 0;
+	int right = 30;
+	int top = 0;
+	int bottom = 30;
+	while (1)
+	{
+		x = x + velocity_x;
+		y = y + velocity_y;
+		system("cls");
+		for (i = 0; i < x; i++)
+			printf("\n");
+		for (j = 0; j < y; j++)
+			printf(" ");
+		printf("愿你朝太阳生长\n");
+
+		Sleep(60);
+		if ((x == top) || (x == bottom))
+			velocity_x = -velocity_x;
+		if ((y == left) || (y == right))
+			velocity_y = -velocity_y;
+		
+	}
+
+
+
+	return 0;
+}
